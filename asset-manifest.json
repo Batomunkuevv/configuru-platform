@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "./static/css/main.61544584.css",
+    "main.js": "./static/js/main.c13e0c84.js",
+    "static/media/186-adley-dr-brock-adley-02.jpg": "./static/media/186-adley-dr-brock-adley-02.fa9ca43e2b431860288f.jpg",
+    "static/media/we-01-01.jpg": "./static/media/we-01-01.a09c74c56100cd0d5122.jpg",
+    "static/media/186-adley-dr-brock-adley-04.jpg": "./static/media/186-adley-dr-brock-adley-04.c43f84b87dde334d4c85.jpg",
+    "static/media/weststraße-165-44866-bochum-01.jpg": "./static/media/weststraße-165-44866-bochum-01.bc9faf06613e356df420.jpg",
+    "static/media/trio-verder-01.jpg": "./static/media/trio-verder-01.597b04e95008393c95e2.jpg",
+    "static/media/weststraße-165-44866-bochum-02.jpg": "./static/media/weststraße-165-44866-bochum-02.785dcc644e367c8be664.jpg",
+    "static/media/186-adley-dr-brock-adley-03.jpg": "./static/media/186-adley-dr-brock-adley-03.995b947936cccfc7f3b5.jpg",
+    "static/media/186-adley-dr-brock-adley-01.jpg": "./static/media/186-adley-dr-brock-adley-01.bb0ab8a8b1db9cbde1a8.jpg",
+    "static/media/ausbauwohnung-4-zimmer-02.jpg": "./static/media/ausbauwohnung-4-zimmer-02.24b0ace9cfa154dd1792.jpg",
+    "static/media/ausbauwohnung-4-zimmer-01.jpg": "./static/media/ausbauwohnung-4-zimmer-01.870ae7c2e67ed2c2d1e0.jpg",
+    "static/media/ai-renovatons-preview.jpg": "./static/media/ai-renovatons-preview.55770646e63990db0690.jpg",
+    "static/media/3d-tour-preview.jpg": "./static/media/3d-tour-preview.44f7726137598b220c74.jpg",
+    "static/media/Inter-Italic.woff": "./static/media/Inter-Italic.bb913868c1c1710d453b.woff",
+    "static/media/Inter-Bold.woff": "./static/media/Inter-Bold.1e547cd04bfe2dae1f98.woff",
+    "static/media/Inter-SemiBold.woff": "./static/media/Inter-SemiBold.7f6c3678e245486167d9.woff",
+    "static/media/Inter-Medium.woff": "./static/media/Inter-Medium.44e343ff76a98508d309.woff",
+    "static/media/Inter-Regular.woff": "./static/media/Inter-Regular.0d6f7c99e635f1fec4c9.woff",
+    "static/media/ai-renders-preview.jpg": "./static/media/ai-renders-preview.62ac2ff78db882b16a3a.jpg",
+    "static/media/Inter-Italic.woff2": "./static/media/Inter-Italic.53edad7f2aa4eb752938.woff2",
+    "static/media/Inter-Bold.woff2": "./static/media/Inter-Bold.c08e610806161507e8e3.woff2",
+    "static/media/Inter-SemiBold.woff2": "./static/media/Inter-SemiBold.90f5c90fdecd8895f496.woff2",
+    "static/media/Inter-Medium.woff2": "./static/media/Inter-Medium.01f03178adde434fc9fa.woff2",
+    "static/media/Inter-Regular.woff2": "./static/media/Inter-Regular.bd097ceff83f90802a12.woff2",
+    "static/media/vladimir.jpg": "./static/media/vladimir.b8f61a9036257dd778d0.jpg",
+    "static/media/logo.svg": "./static/media/logo.32c8f51894ae725b061ab0967252001a.svg",
+    "index.html": "./index.html",
+    "main.61544584.css.map": "./static/css/main.61544584.css.map",
+    "main.c13e0c84.js.map": "./static/js/main.c13e0c84.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61544584.css",
+    "static/js/main.c13e0c84.js"
+  ]
+}
