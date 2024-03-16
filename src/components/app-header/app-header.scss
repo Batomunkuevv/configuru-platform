@@ -1,0 +1,74 @@
+@import "../../assets/scss//base/_functions.scss";
+
+.app-header {
+    padding-top: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    @media (max-width: 1650px) {
+        padding-top: 24px;
+        position: static;
+        margin-bottom: 48px;
+    }
+
+    &__container {
+        @media (min-width: 1300px) {
+            padding: 0 50px;
+            max-width: unset;
+        }
+    }
+
+    &__body {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        gap: 24px;
+
+        @media (max-width: 1200px) {
+            align-items: center;
+        }
+    }
+
+    &__logo {
+        width: 140px;
+        aspect-ratio: 140/42;
+
+        @media (max-width: 576px) {
+            width: 120px;
+        }
+    }
+
+    &__profile {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        @media(max-width: 400px){
+            gap: 8px;
+        }
+
+        &-caption {
+            font-size: 18px;
+            line-height: toProcent(18, 22);
+            font-weight: 500;
+
+            @media (max-width: 768px) {
+                font-size: 16px;
+                line-height: 150%;
+            }
+
+            @media (max-width: 576px) {
+                font-size: 14px;
+            }
+        }
+
+        &-image {
+            width: 50px;
+            aspect-ratio: 1/1;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+    }
+}

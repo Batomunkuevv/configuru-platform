@@ -1,0 +1,40 @@
+@import "../../assets//scss/base/variables";
+@import "../../assets//scss/base/functions";
+
+.project-card {
+    &__category {
+        margin-bottom: 4px;
+        font-size: 14px;
+        line-height: toProcent(14, 20);
+        color: $dark400;
+        font-weight: 600;
+    }
+
+    &__name {
+        margin-bottom: 24px;
+    }
+
+    &__image {
+        margin-bottom: 24px;
+        aspect-ratio: 1/1;
+        border-radius: 8px;
+        overflow: hidden;
+        display: block;
+
+        &--ai-renders {
+            aspect-ratio: 280/285;
+        }
+
+        &--3d-tour {
+            aspect-ratio: 384/216;
+        }
+
+        & img {
+            height: 100%;
+        }
+    }
+
+    &__button {
+        width: 100%;
+    }
+}

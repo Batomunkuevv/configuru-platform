@@ -1,0 +1,45 @@
+@import "../../assets/scss//base/variables";
+@import "../../assets/scss//base/functions";
+
+.project {
+    margin-top: 161px;
+
+    @media(max-width: 1650px){
+        margin-top: 64px;
+    }
+
+    @media(max-width: 1200px){
+        margin-top: 0;
+    }
+
+    &__title {
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: toProcent(24, 32);
+        text-align: center;
+    }
+
+    &__frame {
+        width: 100%;
+        aspect-ratio: 152/83;
+    }
+
+    &__images {
+        &-item {
+            width: 100%;
+            aspect-ratio: 152/83;
+
+            &:not(:last-child) {
+                margin-bottom: 32px;
+            }
+        }
+    }
+
+    &__bottom {
+        margin-top: 48px;
+    }
+
+    &__button {
+        width: fit-content;
+    }
+}

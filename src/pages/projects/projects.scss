@@ -1,0 +1,90 @@
+@import "../../assets/scss/base/variables";
+@import "../../assets/scss/base/functions";
+
+.projects {
+    &__title {
+        margin-bottom: 24px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px;
+        font-size: 20px;
+        line-height: toProcent(20, 30);
+        font-weight: 700;
+        text-align: center;
+    }
+
+    &__filters {
+        margin-bottom: 48px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        width: fit-content;
+        gap: 14px;
+
+        @media (max-width: 768px) {
+            margin-right: unset;
+            margin-left: unset;
+            max-width: 100%;
+            overflow: auto;
+            scrollbar-width: none;
+            flex-wrap: nowrap;
+            
+            &::-webkit-scrollbar {
+                display: none;
+            }
+        }
+        
+        @media(max-width: 576px){
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: -15px;
+            margin-left: -15px;
+            max-width: calc(100% + 30px);
+        }
+    }
+
+    &__filter {
+        padding: 12px 18px;
+        background: $orange100;
+        color: $colorMain;
+
+        @media (max-width: 768px) {
+            padding: 8px 16px;
+            height: 40px;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+
+        &:hover {
+            background: $orange200;
+        }
+
+        &.is-active {
+            pointer-events: none;
+            background: $colorMain;
+            color: #fff;
+        }
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(384px, 1fr));
+        column-gap: 32px;
+        row-gap: 48px;
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+            gap: 40px;
+        }
+
+        &--ai-renders {
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+
+            @media (max-width: 768px) {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}

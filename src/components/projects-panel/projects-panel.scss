@@ -1,0 +1,63 @@
+@import "../../assets//scss//base/variables";
+@import "../../assets//scss//base/functions";
+
+.projects-panel {
+    padding: 15px 104px;
+    margin-bottom: 48px;
+    background: #f8f8f8;
+    border-radius: 8px;
+
+    @media (max-width: 1200px) {
+        padding: 16px 24px;
+    }
+
+    &__user {
+        display: grid;
+        grid-template-columns: 72px 1fr;
+        grid-auto-rows: auto 1fr;
+        column-gap: 14px;
+        row-gap: 4px;
+
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: unset;
+        }
+
+        &-image {
+            width: 72px;
+            aspect-ratio: 1/1;
+            grid-row: 1/3;
+            grid-column: 1/2;
+            border-radius: 50%;
+            overflow: hidden;
+
+            @media (max-width: 768px) {
+                margin-bottom: 14px;
+            }
+        }
+
+        &-name {
+            font-size: 20px;
+            line-height: toProcent(20, 30);
+            font-weight: 600;
+
+            @media (min-width: 768px) {
+                padding-top: 8px;
+            }
+
+            @media (max-width: 768px) {
+                margin-bottom: 4px;
+                font-size: 16px;
+                line-height: toProcent(16, 24);
+            }
+        }
+
+        &-email {
+            font-size: 14px;
+            line-height: toProcent(14, 20);
+            color: $dark500;
+        }
+    }
+}

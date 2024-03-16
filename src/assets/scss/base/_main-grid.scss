@@ -1,0 +1,39 @@
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: clip;
+}
+
+.container {
+    max-width: $maxWidthContainer;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    @media (max-width: 1199px) {
+        max-width: 960px;
+    }
+
+    @media (max-width: 991px) {
+        max-width: 720px;
+    }
+
+    @media (max-width: 767px) {
+        max-width: 540px;
+    }
+
+    @media (max-width: 575px) {
+        max-width: unset;
+    }
+}
+
+.app-page {
+    padding: 50px 0;
+    flex: 1 1 auto;
+    position: relative;
+    z-index: 1;
+
+    @media(max-width: 1650px){
+        padding-top: 0;
+    }
+}

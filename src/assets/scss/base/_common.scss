@@ -1,0 +1,86 @@
+html,
+body {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    color: $colorFont;
+    font-weight: 400;
+
+    @supports not selector(::-webkit-scrollbar) {
+        scrollbar-width: thin;
+        scrollbar-color: $colorMain #fff;
+    }
+
+    &::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: 0 0;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $colorMain;
+        border-radius: 20px;
+        border: 1px solid transparent;
+    }
+
+    ::selection{
+        background: $colorMain;
+        color: #fff;
+    }
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 600;
+}
+
+// Img
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+// Video
+
+video {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+// Iframe
+
+iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+// Svg
+
+svg {
+    width: 100%;
+}
+
+// Visually hidden
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
