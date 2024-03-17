@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.61544584.css",
-    "main.js": "./static/js/main.c13e0c84.js",
+    "main.css": "./static/css/main.8eff4af1.css",
+    "main.js": "./static/js/main.bd4ec784.js",
     "static/media/186-adley-dr-brock-adley-02.jpg": "./static/media/186-adley-dr-brock-adley-02.fa9ca43e2b431860288f.jpg",
     "static/media/we-01-01.jpg": "./static/media/we-01-01.a09c74c56100cd0d5122.jpg",
     "static/media/186-adley-dr-brock-adley-04.jpg": "./static/media/186-adley-dr-brock-adley-04.c43f84b87dde334d4c85.jpg",
@@ -28,11 +28,11 @@
     "static/media/vladimir.jpg": "./static/media/vladimir.b8f61a9036257dd778d0.jpg",
     "static/media/logo.svg": "./static/media/logo.32c8f51894ae725b061ab0967252001a.svg",
     "index.html": "./index.html",
-    "main.61544584.css.map": "./static/css/main.61544584.css.map",
-    "main.c13e0c84.js.map": "./static/js/main.c13e0c84.js.map"
+    "main.8eff4af1.css.map": "./static/css/main.8eff4af1.css.map",
+    "main.bd4ec784.js.map": "./static/js/main.bd4ec784.js.map"
   },
   "entrypoints": [
-    "static/css/main.61544584.css",
-    "static/js/main.c13e0c84.js"
+    "static/css/main.8eff4af1.css",
+    "static/js/main.bd4ec784.js"
   ]
 }
