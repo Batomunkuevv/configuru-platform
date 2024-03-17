@@ -16,21 +16,20 @@
 
     &__image {
         margin-bottom: 24px;
-        aspect-ratio: 1/1;
+        aspect-ratio: 384/216;
         border-radius: 8px;
         overflow: hidden;
         display: block;
 
-        &--ai-renders {
-            aspect-ratio: 280/285;
-        }
-
-        &--3d-tour {
-            aspect-ratio: 384/216;
+        &:hover{
+            & img{
+                transform: scale(1.05);
+            }
         }
 
         & img {
             height: 100%;
+            transition: all 0.3s ease-in-out 0s;
         }
     }
 

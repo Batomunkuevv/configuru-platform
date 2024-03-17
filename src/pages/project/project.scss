@@ -4,27 +4,43 @@
 .project {
     margin-top: 161px;
 
-    @media(max-width: 1650px){
+    @media (max-width: 1650px) {
         margin-top: 64px;
     }
 
-    @media(max-width: 1200px){
+    @media (max-width: 1200px) {
         margin-top: 0;
     }
 
-    &__title {
+    &__header {
         margin-bottom: 32px;
-        font-size: 24px;
-        line-height: toProcent(24, 32);
-        text-align: center;
+
+        @media (min-width: 768px) {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 48px;
+        }
     }
 
-    &__frame {
+    &__title {
+        font-size: 24px;
+        line-height: toProcent(24, 32);
+
+        @media (max-width: 768px) {
+            text-align: center;
+        }
+    }
+
+    &__3d {
         width: 100%;
         aspect-ratio: 152/83;
+        position: relative;
     }
 
     &__images {
+        position: relative;
+
         &-item {
             width: 100%;
             aspect-ratio: 152/83;
@@ -33,13 +49,57 @@
                 margin-bottom: 32px;
             }
         }
-    }
 
-    &__bottom {
-        margin-top: 48px;
+        &-arrows {
+            @media (max-width: 992px) {
+                display: flex;
+                justify-content: center;
+                gap: 32px;
+            }
+
+            @media (max-width: 576px) {
+                gap: 24px;
+            }
+        }
+
+        &-arrow {
+            @media (min-width: 992px) {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                z-index: 1;
+            }
+
+            &--prev {
+                left: 16px;
+            }
+
+            &--next {
+                right: 16px;
+            }
+        }
     }
 
     &__button {
         width: fit-content;
+        flex: none;
+
+        @media(max-width: 576px){
+            width: 100%;
+        }
+
+        &--desktop {
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+
+        &--mobile {
+            margin-top: 48px;
+
+            @media (min-width: 768px) {
+                display: none;
+            }
+        }
     }
 }

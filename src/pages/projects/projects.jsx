@@ -57,7 +57,7 @@ export const ProjectsPage = () => {
                 {projects && (
                     <ul className={`projects__list projects__list--${projects.category}`}>
                         {projects.projects.map((project, i) => (
-                            <ProjectCard key={i} categoryName={projects.name} category={projects.category} preview={projects.preview} {...project} />
+                            <ProjectCard key={i} categoryName={projects.name} category={projects.category} {...project} />
                         ))}
                     </ul>
                 )}
