@@ -102,13 +102,13 @@ export const projectsData = [
                 "name": "DGER",
                 "slug": "dger",
                 "preview": dgerPreview,
-                "id": "share-b51fd627-d976-40de-a025-705a49258602"
+                "id": "share-559ba316-cf9c-44be-aa75-0989704f9716"
             },
             {
                 "name": "RAIN",
                 "slug": "rain",
                 "preview": rainPreview,
-                "id": "share-10a554f4-b006-4924-8cf6-8e1fcf107390"
+                "id": "share-89ab2288-9a1f-4d83-a515-71c5f3e04a35"
             },
             {
                 "name": "NY262",
